@@ -10,8 +10,10 @@ from rest_framework.routers import DefaultRouter
 from core.views import UserViewSet
 from core.views import CategoriaViewSet
 from core.views import EditoraViewSet
+from core.views import AutorViewSet
 
 router = DefaultRouter()
+router.register(r"autor", AutorViewSet)
 router.register(r"categorias", CategoriaViewSet)
 router.register(r"editoras", EditoraViewSet)
 router.register(r'usuarios', UserViewSet, basename='usuarios')
