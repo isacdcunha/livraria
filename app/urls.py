@@ -11,11 +11,13 @@ from core.views import UserViewSet
 from core.views import CategoriaViewSet
 from core.views import EditoraViewSet
 from core.views import AutorViewSet
+from core.views import LivroViewSet
 
 router = DefaultRouter()
-router.register(r"autor", AutorViewSet)
+router.register(r"autores", AutorViewSet, basename='autor')
 router.register(r"categorias", CategoriaViewSet)
 router.register(r"editoras", EditoraViewSet)
+router.register(r"livros", LivroViewSet)
 router.register(r'usuarios', UserViewSet, basename='usuarios')
 
 urlpatterns = [
