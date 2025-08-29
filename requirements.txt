@@ -2,63 +2,64 @@
 # Please do not edit it manually.
 
 annotated-types==0.7.0
-asgiref==3.8.1
-attrs==24.2.0
+asgiref==3.9.1
+attrs==25.3.0
 brotli==1.1.0
-certifi==2024.8.30
+certifi==2025.8.3
 cffi==1.17.1; platform_python_implementation != "PyPy"
 cfgv==3.4.0
-charset-normalizer==3.4.0
-click==8.1.7
-cloudinary==1.41.0
+charset-normalizer==3.4.3
+click==8.2.1
+cloudinary==1.44.1
 colorama==0.4.6; sys_platform == "win32" or platform_system == "Windows"
-cryptography==44.0.2
-distlib==0.3.9
-dj-database-url==2.3.0
-django==5.1.7
+cryptography==44.0.3
+distlib==0.4.0
+dj-database-url==3.0.1
+django==5.2.5
 django-cloudinary-storage==0.3.0
 django-cors-headers==4.7.0
-django-extensions==3.2.3
+django-extensions==4.1
 django-filter==25.1
-djangorestframework==3.15.2
+djangorestframework==3.16.1
 drf-spectacular==0.28.0
-filelock==3.16.1
+filelock==3.19.1
 gunicorn==23.0.0
-h11==0.14.0
-identify==2.6.1
+h11==0.16.0
+identify==2.6.13
 idna==3.10
 inflection==0.5.1
-jsonschema==4.23.0
-jsonschema-specifications==2024.10.1
+jsonschema==4.25.1
+jsonschema-specifications==2025.4.1
 mysqlclient==2.2.7
 nodeenv==1.9.1
-packaging==24.1
+packaging==25.0
 passage-identity==3.0.1
-pillow==11.1.0
-platformdirs==4.3.6
-pre-commit==4.2.0
+pillow==11.3.0
+platformdirs==4.4.0
+pre-commit==4.3.0
 psycopg2-binary==2.9.10
 pycparser==2.22; platform_python_implementation != "PyPy"
-pydantic==2.10.6
-pydantic-core==2.27.2
+pydantic==2.11.7
+pydantic-core==2.33.2
 pydotplus==2.0.2
-pyjwt==2.9.0
-pyparsing==3.2.0
+pyjwt==2.10.1
+pyparsing==3.2.3
 python-dateutil==2.9.0.post0
-python-dotenv==1.1.0
+python-dotenv==1.1.1
 python-magic==0.4.27; sys_platform == "linux"
 python-magic-bin==0.4.14; sys_platform == "win32"
 pyyaml==6.0.2
-referencing==0.35.1
-requests==2.32.3
-rpds-py==0.20.1
-setuptools==78.0.2
-six==1.16.0
-sqlparse==0.5.1
-typing-extensions==4.12.2
-tzdata==2024.2; sys_platform == "win32"
-uritemplate==4.1.1
-urllib3==2.0.7
-uvicorn==0.34.0
-virtualenv==20.27.1
+referencing==0.36.2
+requests==2.32.5
+rpds-py==0.27.1
+setuptools==80.9.0
+six==1.17.0
+sqlparse==0.5.3
+typing-extensions==4.15.0
+typing-inspection==0.4.1
+tzdata==2025.2; sys_platform == "win32"
+uritemplate==4.2.0
+urllib3==2.5.0
+uvicorn==0.35.0
+virtualenv==20.34.0
 whitenoise[brotli]==6.9.0

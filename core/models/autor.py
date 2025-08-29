@@ -10,4 +10,8 @@ class Autor(models.Model):
 
     def __str__(self):
         return self.nome
+    class Meta:
+        ordering = ['nome']
+        verbose_name = 'Autor'
+        verbose_name_plural = 'Autores'
     
